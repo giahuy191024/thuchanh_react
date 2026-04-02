@@ -74,15 +74,22 @@ function App() {
                 </div>
             </header>
             <body>
-            <img style={
-                {
-                    height: "200px",
-                    width: "100%",
-                    backgroundColor: "orange",
-                    margin: "10px",
-                    padding: "10px",
-                }
-            } src="https://upload.wikimedia.org/wikipedia/vi/2/2d/Logo_Trường_Đại_h%E1%BB%8Dc_FPT.svg" alt=""/>
+            <div style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                margin:"60px",
+            }}>
+                <img style={
+                    {
+                        height: "200px",
+                        width: "100%",
+                        backgroundColor: "orange",
+                        margin: "10px",
+                        padding: "10px",
+                    }
+                } src="https://upload.wikimedia.org/wikipedia/vi/2/2d/Logo_Trường_Đại_h%E1%BB%8Dc_FPT.svg" alt=""/>
+            </div>
             <h1 style={{textAlign:"center"}}>Should we learn program in FPT APTECH?</h1>
             <div style={{display:"flex", justifyContent:"center",alignItems:"center",gap:"10px",}}>
 
