@@ -83,7 +83,7 @@ function App() {
                     padding: "10px",
                 }
             } src="https://upload.wikimedia.org/wikipedia/vi/2/2d/Logo_Trường_Đại_h%E1%BB%8Dc_FPT.svg" alt=""/>
-            <h1 style={{textAlign:"center"}}>Danh sach sinh vien</h1>
+            <h1 style={{textAlign:"center"}}>Should we learn program in FPT APTECH?</h1>
             <div style={{display:"flex", justifyContent:"center",alignItems:"center",gap:"10px",}}>
 
                     {sv.map((item, index) => (
